@@ -9,5 +9,6 @@ const initials = userNames.map(function(userNames) {
       })
       .join('');
   });
+initials.sort();
 console.log('lesson 1 result:', initials);
 
